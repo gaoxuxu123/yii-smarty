@@ -1,0 +1,23 @@
+{
+    "name": "yii-smarty/smarty",
+    "type": "library",
+    "description": "Smarty在YII2封装包。",
+    "keywords": ["yii-smarty","yii2","YII2", "YII", "Smarty", "smarty SDK"],
+    "homepage": "https://github.com/gaoxuxu123/yii-smarty",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "gaoxuxu",
+            "email": "394703554@qq.com"
+        }
+    ],
+    "require": {
+      "php": ">=5.4.0"
+    },
+  "autoload": {
+    "psr-4": {
+      "Yxu\\SmartyLib\\": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}
