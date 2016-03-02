@@ -15,7 +15,7 @@
 
  更新依赖 ``` composer update ```
 
- ##使用说明
+##使用说明
 
  ```
      必须在views文件夹下面创建2个文件夹分别是template_cache和templates
@@ -40,11 +40,13 @@
      上述参数都可自定义。
 
 
-    在控制器中引入该类 : ```use Yxu\SmartyLib\CSmarty;```
+    在控制器中引入该类 : use Yxu\SmartyLib\CSmarty;
     //实例对象
     $smarty =  CSmarty::getInstance();
+
     //传递参数
     $smarty->assign('name','HelloSmarty');
+
     //展示的界面 路径views/templates/index.html
     $smarty->display("index.html");
 
