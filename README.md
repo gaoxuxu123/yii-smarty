@@ -23,7 +23,7 @@
 
      源代码中：
 
-            public $SMARTY_TMPDIR   = '/views/templates/';
+             public $SMARTY_TMPDIR   = '/views/templates/';
 
              public $SMARTY_CONFIG   = '/views/templates/tpl_conf/';
 
